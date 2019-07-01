@@ -1596,7 +1596,7 @@ iframe { border: 0; }
   .side-nav-folded .side-nav .side-nav-inner .side-nav-menu > li > a .title { display: none; }
   .side-nav-folded .side-nav .side-nav-inner .side-nav-menu li.dropdown .arrow { opacity: 0; }
   .side-nav-folded .side-nav .side-nav-inner .side-nav-menu li.dropdown.open ul.dropdown-menu { display: none !important; }
-  .side-nav-folded .side-nav:hover { width: 250px; }
+  .side-nav-folded .side-nav:hover { width: 50px; }
   .side-nav-folded .side-nav:hover .side-nav-inner .side-nav-menu > li.side-nav-header { display: block; }
   .side-nav-folded .side-nav:hover .side-nav-inner .side-nav-menu > li > a .title { display: inline-block; }
   .side-nav-folded .side-nav:hover .side-nav-inner .side-nav-menu li.dropdown .arrow { opacity: 1; }
@@ -1604,9 +1604,9 @@ iframe { border: 0; }
 
 @media only screen and (max-width: 992px) { .side-nav-folded .side-nav { left: -250px; } }
 
-.side-nav-folded .header .header-container .nav-logo { width: 70px; padding: 0px; }
+.side-nav-folded .header .header-container .nav-logo { width: 50px; padding: 0px; }
 
-@media only screen and (max-width: 767px) { .side-nav-folded .header .header-container .nav-logo { width: 0px; overflow: hidden; } }
+@media only screen and (max-width: 767px) { .side-nav-folded .header .header-container .nav-logo { width: 100px; overflow: hidden; } }
 
 .side-nav-folded .header .header-container .nav-logo > a .logo { width: 70px; background-position: center center; }
 
@@ -1701,11 +1701,11 @@ iframe { border: 0; }
 
 .header .header-container .nav-logo > a { display: inline-block; max-width: 200px; width: 100%; }
 
-.header .header-container .nav-logo > a .logo { background-repeat: no-repeat; background-position: center left; display: inline-block; width: 250%; min-height: calc(65px - 1px); }
+.header .header-container .nav-logo > a .logo { background-repeat: no-repeat; background-position: center; display: inline-block; width: 250%; min-height: calc(65px - 1px); }
 
 .header .header-container .nav-logo > a .logo.logo-white { display: none; }
 
-@media only screen and (max-width: 992px) { .header .header-container .nav-logo { width: 0px; padding: 0px; } }
+@media only screen and (max-width: 992px) { .header .header-container .nav-logo { width: 150px; padding: 0px;  } }
 
 .header .header-container .nav-left, .header .header-container .nav-right { position: relative; list-style: none; padding-left: 0; margin-bottom: 0px; }
 
